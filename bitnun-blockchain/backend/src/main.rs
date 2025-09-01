@@ -5,8 +5,6 @@ use std::sync::Arc;
 use tokio::sync::Mutex;
 
 mod consensus;
-mod p2p;
-mod blockchain;
 mod ai;
 mod wasm;
 
