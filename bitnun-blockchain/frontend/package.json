@@ -1,0 +1,31 @@
+{
+  "name": "bitnun-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "^0.21.1",
+    "socket.io-client": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "eslint": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
